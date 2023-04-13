@@ -11,7 +11,7 @@ class GoodDog
     "#{name} says arf!"
   end
 
-  def change_info(n, h , w)
+  def change_info(n, h, w)
     self.name = n
     self.height = h
     self.weight = w
