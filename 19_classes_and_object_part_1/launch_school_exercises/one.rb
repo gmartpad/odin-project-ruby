@@ -1,4 +1,4 @@
-class MyCard
+class MyCar
   def initialize(y, c, m)
     @year = y
     @color = c
@@ -24,7 +24,7 @@ class MyCard
   end
 end
 
-opala = MyCard.new(1974, "Orange", "Opala SS6")
+opala = MyCar.new(1974, "Orange", "Opala SS6")
 opala.current_speed
 opala.speed_up(20)
 opala.current_speed

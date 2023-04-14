@@ -30,22 +30,11 @@ class MyCar
     self.color = color
     puts "Your new #{color} paint job looks great!"
   end
+
+  def self.gas_mileage(miles, gallon)
+    puts "#{miles/gallon} miles per gallon of gas"
+  end
 end
 
-opala = MyCar.new(1974, "Orange", "Opala SS6")
-opala.current_speed
-opala.speed_up(20)
-opala.current_speed
-opala.speed_up(20)
-opala.current_speed
-opala.brake(20)
-opala.current_speed
-opala.shut_down
-opala.current_speed
+MyCar.gas_mileage(20, 2) #=> "10 miles per gallon of gas"
 
-puts opala.color
-opala.color = "Red"
-puts opala.color
-puts opala.year
-
-opala.spray_paint('Gray')
