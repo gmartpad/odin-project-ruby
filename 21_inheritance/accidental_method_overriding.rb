@@ -60,4 +60,4 @@ class Child
 end
 
 heir = Child.new
-p heir.instance_of? Child
+p heir.instance_of? Child #=> wrong number of arguments (given 1, expected 0) (ArgumentError)
